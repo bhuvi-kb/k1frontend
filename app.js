@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(function(req, res) {
     res.sendFile(path.join(__dirname, '/public', 'index.html'));
 });
-app.listen(3000, ()=> {
-    console.log("Server running at port 3000")
+app.listen(8080, ()=> {
+    console.log("Server running at port 8080")
 });
 
